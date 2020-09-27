@@ -2,20 +2,21 @@ body {
         font-family: 'Baloo Tammudu 2', cursive;
         text-align: center;
         background-color: salmon;
+        color: brown;
 }
 
 header {
         width: 100%;
 }
 
-header nav {
+ nav {
         display:flex;
         justify-content: space-around;
         align-items: center;
         background-color: green;
 }
 
-header nav ul li {
+ nav ul li {
         list-style-type: none;
 }
 
@@ -40,7 +41,18 @@ h3 {
         padding-top: 50px;
 }
 
-p {
-        margin: 0;
+
+.meet-imgs p {
+        margin-bottom: 10%;
 }
 
+.flex-imgs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-around;
+}
+
+.flex-imgs img {
+        width: 30%;
+}
